@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media (max-width: 768px) {
+  .button {
+    padding: 6px 12px; /* Smaller padding on smaller screens */
+  }
+
+  .button-container {
+    margin-right: 10px; /* Reduce margin on smaller screens */
+  }
+}
+
